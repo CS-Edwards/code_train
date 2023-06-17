@@ -3,8 +3,10 @@ console.log('go go neural net');
 
 
 
-class Percepton{
+class Perceptron{
 
+    // n = number of weights
+    // lr = learning rate
     constructor(n,lr){
         this.weights = new Array(n);
         this.#initializeWeights();
